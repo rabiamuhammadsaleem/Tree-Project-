@@ -1,0 +1,87 @@
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;    
+}
+
+.main-container {
+    width: 500px;
+    padding: 20px;
+    background-color:black;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.big-image {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    transition: all 0.3s ease;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.on:hover {
+    background-color: lightgreen;
+    color: white;
+}
+
+.off:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+.circle-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.circle-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #007bff;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.red { 
+    background-color: rgb(252, 6, 6);
+}
+.green {
+       background-color: rgb(95, 216, 95);
+}
+.blue { 
+      background-color: rgb(7, 7, 248); 
+}
+.purple { 
+      background-color: rgb(205, 31, 205); 
+}
+.pink { 
+      background-color: hotpink; 
+}
+.orange { 
+      background-color: orange; 
+} 
+
